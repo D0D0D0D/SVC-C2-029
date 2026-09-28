@@ -1,0 +1,7 @@
+# Runtime parameters — loaded separately from the static manifest and passed
+# as Graph(config=...). config/agent.yaml is the static manifest; this file
+# holds only what changes at run time.
+
+max_retry: 3
+timeout_seconds: 30
+memory_enabled: true
